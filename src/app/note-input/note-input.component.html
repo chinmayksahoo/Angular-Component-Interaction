@@ -1,0 +1,34 @@
+<mat-accordion>
+    <mat-expansion-panel class="EnrollMentForm">
+        <mat-expansion-panel-header>
+            <mat-panel-title class="mat-panel-title">
+                Insurance Enrollment Form
+            </mat-panel-title>
+            <mat-panel-description>
+                Key-in your Name, Plan Name & Duration
+                <mat-icon>account_circle</mat-icon>
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="noteInput">
+            <mat-form-field>
+                <mat-label>Name</mat-label>
+                <input type="text" matInput placeholder="Enter your Name" [(ngModel)]="insurance.name">
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <mat-label>Plan Name</mat-label>
+                <input type="text" matInput placeholder="Enter your Plan" [(ngModel)]="insurance.plan">
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <mat-label>Duration</mat-label>
+                <input type="number" matInput placeholder="Enter the Duration" [(ngModel)]="insurance.dur">
+            </mat-form-field>
+        </div>
+        <div>
+            <button mat-raised-button class="mrb" color="primary" (click)="addNote()">Add</button>
+            <button mat-raised-button class="mrb" color="accent" (click)="resetForm()">Cancel</button>
+        </div>
+    </mat-expansion-panel>
+</mat-accordion>
+<app-show-notes [show]="insurances"></app-show-notes>

@@ -1,0 +1,12 @@
+.footer{
+    display:flex;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+    background-color: indigo;
+}
+
+.example-spacer{
+    flex: 1 1 auto;
+}

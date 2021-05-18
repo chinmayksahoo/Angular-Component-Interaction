@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-Component-Interaction';
+  
+  counter:number = 0;
+
+  constructor(){
+
+  }
+
+  handleTotal(c:string){
+    this.counter = parseInt(c);
+    //alert(`Total Event Raised: ${c}`)
+  }
 }

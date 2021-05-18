@@ -1,0 +1,15 @@
+<div class="display" fxLayout="row">
+    <mat-card class="card" *ngFor="let ins of show">
+        <mat-card-title class="card-title">
+            <a>Insurance Id: I{{ins.id}}</a>
+        </mat-card-title>
+        <div>
+            <mat-divider [inset]="true"></mat-divider><br>
+        </div>
+        <mat-card-content class="card-content">
+            <a>Name: {{ins.name}}</a><br>
+            <a>Plan: {{ins.plan}}</a><br>
+            <a>Duration: {{ins.dur}}</a>
+        </mat-card-content>
+    </mat-card>
+</div>

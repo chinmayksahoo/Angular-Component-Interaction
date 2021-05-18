@@ -1,0 +1,88 @@
+{
+  "insurance": [
+    {
+      "id": 1,
+      "name": "Alex",
+      "plan": "HMO",
+      "dur": 20
+    },
+    {
+      "id": 2,
+      "name": "Richard",
+      "plan": "PPO",
+      "dur": 25
+    },
+    {
+      "id": 3,
+      "name": "Matt",
+      "plan": "PDO",
+      "dur": 12
+    },
+    {
+      "id": 4,
+      "name": "Charles",
+      "plan": "MHMO",
+      "dur": 20
+    },
+    {
+      "id": 5,
+      "name": "Mathew",
+      "plan": "COB",
+      "dur": 2
+    },
+    {
+      "id": 6,
+      "name": "Jason",
+      "plan": "VAHMO",
+      "dur": 12
+    },
+    {
+      "id": 7,
+      "name": "Robin",
+      "plan": "PPO",
+      "dur": 25
+    },
+    {
+      "id": 8,
+      "name": "Emily",
+      "plan": "HSA",
+      "dur": 12
+    },
+    {
+      "id": 9,
+      "name": "Alison",
+      "plan": "POS",
+      "dur": 15
+    },
+    {
+      "id": 10,
+      "name": "Zack",
+      "plan": "EPO",
+      "dur": 25
+    },
+    {
+      "id": 11,
+      "name": "Daniel",
+      "plan": "CDHP",
+      "dur": 10
+    },
+    {
+      "id": 12,
+      "name": "Robert",
+      "plan": "POS",
+      "dur": 10
+    },
+    {
+      "id": 13,
+      "name": "John",
+      "plan": "HMO",
+      "dur": 20
+    },
+    {
+      "id": 14,
+      "name": "Jaccob",
+      "plan": "PPO",
+      "dur": 15
+    }
+  ]
+}
